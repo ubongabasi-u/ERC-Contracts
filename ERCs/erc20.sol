@@ -8,7 +8,7 @@ contract KamukamuToken is ERC20, Ownable {
 
     uint256 public tokensPerEth = 1000 * 10 ** decimals();
 
-    constructor() ERC20("KamkamuToken", "KKT") {
+    constructor() ERC20("KamukamuToken", "KKT") {
         _mint(msg.sender, 1000000 * 10 ** decimals());
     }
 
